@@ -29,7 +29,7 @@ console.log(area1);
 getArea2(10, 20);
 
 // 호이스팅
-// -> 끌어올리다 라는 뜻 함수가 아래에 있어도 가능함
+// -> 끌어올리다 라는 뜻 함수가 아래에 있어도 가능함 : 함수 선언을 항상 위에 하지 않아도 됌
 function getArea2(width, height) {
   function another() {
     // 중첩 함수

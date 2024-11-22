@@ -6,6 +6,10 @@ let a = 1; // 전역 스코프 -> 전역 변수?
 function funcA() {
   let b = 2; // 지역 스코프 -> 지역 변수?
   console.log(a);
+
+  function funcB() {
+    // 지역 스코프 이므로 밖에서 사용 불가
+  }
 }
 
 funcA();
