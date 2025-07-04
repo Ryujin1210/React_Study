@@ -17,6 +17,7 @@ let name1l;
 let $2name;
 
 // 3-3. 예약어를 사용할 수 없다.
+// let if
 
 // 4. 변수 명명 가이드
 let a = 1;
